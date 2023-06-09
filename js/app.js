@@ -16,7 +16,11 @@ function handleDragStart(e) {
 
 function handleDragEnd(e) {
   e.target.classList.remove('hide');
+  e.target.classList.remove('dragged');
+
 }
+
+
 
 
 
