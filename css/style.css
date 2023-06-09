@@ -61,6 +61,7 @@
 
 
 
+
 .hide{
     display: none;
 }
@@ -71,7 +72,12 @@
 
 .drag-over {
     border: solid 2px rgb(0, 162, 255);
-    background-color:rgb(134, 200, 237); ;
+    background-color:rgb(196, 231, 251); ;
+}
+
+.dragged {
+    transform: scale(0.3);
+    font-size: 8px;
 }
 
 #reset{
