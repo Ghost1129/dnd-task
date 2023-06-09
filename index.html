@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="popup hide">
+            <span>Item Added</span>
+        </div>
+        <div class="inner_targets">
+            <div class="box">
+                <img id="item1" src="./assets/image.jpg" alt="building" draggable="true" class="item">
+                <img id="item2" src="./assets/people01.png" alt="building" draggable="true" class="item">
+                <div class="item" id="item3" draggable="true">Drag Me</div>
+                <img id="item4" src="./assets/Trashcan.png" alt="building" draggable="true" class="item">
+            </div>
+            <div class="box"></div>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+   
+    <script src="js/app.js"></script>
+</body>
+
+</html>
